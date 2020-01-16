@@ -15,7 +15,16 @@ y = "7"
 
 # YOUR CODE HERE
 
+def five_plus_seven(num1, num2):
+    print(int(num1) + int(num2))
+
+five_plus_seven(x, y)
 
 # Write a print statement that combines x + y into the string value 57
 
 # YOUR CODE HERE
+
+def five_plus_seven_string(num1, num2):
+    print(str(num1) + str(num2))
+
+five_plus_seven_string(x, y)
